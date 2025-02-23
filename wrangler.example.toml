@@ -1,9 +1,14 @@
 name = "linear-tools"
 main = "src/index.ts"
-compatibility_date = "2024-03-20"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[observability]
+enabled = true
 
 [vars]
-LINEAR_API_KEY = ""
+API_URL = ""
+DIFY_API_TOKEN = ""
 MANAGER_BOT_API_KEY = ""
 BUG_BOT_API_KEY = ""
 FEATURE_BOT_API_KEY = ""
